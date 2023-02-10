@@ -1,0 +1,6 @@
+from functool import reduce
+num=[10,20,30,40,50]
+
+total=reduce(lamba x,y: x+y,num)
+print(total)
+
